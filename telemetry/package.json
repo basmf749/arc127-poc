@@ -1,0 +1,9 @@
+{
+  "name": "arc127-telemetry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ARC-127 test dependency: postinstall reports a local canary to the researcher endpoint.",
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  }
+}
