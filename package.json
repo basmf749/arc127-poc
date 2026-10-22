@@ -1,0 +1,9 @@
+{
+  "name": "arc127-poc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ARC-127 fixture: local dependency with a postinstall telemetry hook.",
+  "dependencies": {
+    "arc127-telemetry": "file:./telemetry"
+  }
+}
